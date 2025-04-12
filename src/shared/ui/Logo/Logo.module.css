@@ -1,0 +1,26 @@
+.headerLink {
+	display: flex;
+	align-items: end;
+	height: 48px;
+}
+.headerLink:hover {
+	opacity: 0.8;
+}
+.headerLink:active {
+	opacity: 0.6;
+}
+
+@media screen and (max-width: 1023px) {
+	.headerLink {
+		display: flex;
+		align-items: center;
+		height: 49px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.headerLink {
+		width: 32px;
+		height: 32px;
+	}
+}

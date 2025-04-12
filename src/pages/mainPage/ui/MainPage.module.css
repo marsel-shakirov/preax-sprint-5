@@ -1,0 +1,27 @@
+.weatherToday {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 472px;
+	padding: 32px;
+	gap: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+	.weatherToday {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+		justify-content: start;
+		gap: 48px;
+		padding: 24px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.weatherToday {
+		padding: 16px;
+		gap: 32px;
+	}
+}

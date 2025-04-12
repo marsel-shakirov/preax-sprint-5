@@ -1,0 +1,9 @@
+:root {
+	--font-family: 'Raleway', 'Arial', sans-serif;
+	--main-color: #f5f4f4;
+	--card-color: #202020;
+	--card-text-color: #393939;
+	--forecast-text-color: #a6a6a6;
+	--proggress-bar-bg-color: #d3d3d3;
+	--search-input--active: #dadada;
+}
